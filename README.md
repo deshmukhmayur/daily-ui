@@ -11,6 +11,6 @@ The UI Designs for each day will be stored in a folder named with the day number
 
 ## Daily UI Designs:
 
-#### Day 1: Sign Up ([Demo](https://deshmukhmayur.github.io/daily-ui/day-001))
+#### Day 1: Sign Up ([Demo](https://deshmukhmayur.github.io/daily-ui/day-001/index.html))
 
 ![Sign Up](day-001/design/Sign%20Up.png)

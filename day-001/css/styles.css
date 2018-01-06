@@ -1,6 +1,6 @@
-/* @import url('_helpers.css'); */
-
-/* HELPER CLASSES (imported from _helpers.css) */
+/*
+ * HELPER CLASSES
+ */
 body {
     --breakpoint-small: 600px;
     --breakpoint-medium: 992px;
@@ -82,8 +82,13 @@ a {
 
 
 
-/* MAIN STYLES */
+/*
+ * MAIN STYLES
+ */
 
+* {
+    font-family: Roboto, sans-serif !important;
+}
 body {
     padding: 0;
     margin: 0;
@@ -185,6 +190,10 @@ body {
 }
 .feature-block > .button {
     margin: 0;
+}
+.button.feature-block, .feature-block > .button {
+    background-color: #b6b6b6;
+    color: rgba(0,0,0,0.87);
 }
 
 #sign-up {
