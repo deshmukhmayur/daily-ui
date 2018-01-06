@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <!-- <base href="https://deshmukhmayur.github.io/daily-ui/day-001"> -->
+
+    <!-- Roboto Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="css/_helpers.css"> -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="section-left">
+        <section id="illustration-box" class="box-left typography--align-center">
+            <h1 class="typography__display4 typography--white">Private Cloud</h1>
+            <h3 class="typography__display1 typography--white">Everything in one place</h3>
+
+            <img src="img/illustration.png" alt="illustration" style="max-width: 100%;">
+
+            <p class="typography__caption typography--white show-on-small">Tap anywhere to continue...</p>
+        </section>
+    </div>
+    <div class="section-right">
+        <section class="box-right">
+            <div id="sign-up">
+                <div class="container">
+                    <form onsubmit="return false;" class="form-container">
+                        <h2 class="typography__display1">Sign Up</h2>
+
+                        <input type="text" placeholder="Full Name" class="form-control">
+                        <input type="email" placeholder="Email Address" class="form-control">
+                        <input type="password" placeholder="Password" class="form-control">
+
+                        <div class="form-control form-control--no-border">
+                            <input type="checkbox" name="tnc" id="tnc">
+                            <label for="tnc">I Agree to the
+                                <a href="">Terms and Conditions</a>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="button button__block button--primary">Sign Up</button>
+
+                        <button type="button" class="button button__block button--compact">Sign Up with Google</button>
+                        <button type="button" class="button button__block button--compact">Sign Up with Facebook</button>
+
+                    </form>
+                    <p class="typography__caption typography--align-center">or</p>
+                    <button id="toggle-login" type="button" class="button button__block feature-block">Log In</button>
+                </div>
+            </div>
+            <div id="login">
+                <div class="container">
+                    <form onsubmit="return false;" class="form-container">
+                        <h2 class="typography__display1">Log In</h2>
+
+                        <input type="email" placeholder="Email Address" class="form-control">
+                        <input type="password" placeholder="Password" class="form-control">
+
+                        <div class="form-control form-control--no-border">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                        <button type="submit" class="button button__block button--primary">Login</button>
+
+                        <button type="button" class="button button__block button--compact">Sign in with Google</button>
+                        <button type="button" class="button button__block button--compact">Sign in with Facebook</button>
+                    </form>
+
+                    <div class="feature-block">
+                        <p class="typography__caption typography--align-center feature-text">Haven't registered yet?</p>
+                        <button id="toggle-sign-up" type="button" class="button button__block">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
